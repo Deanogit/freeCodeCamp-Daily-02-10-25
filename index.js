@@ -14,6 +14,7 @@ function toBinary(decimal) {
   //   console.log(decimal)
   // hold binary
   // const binary = "";
+
   // while (decimal > 0) {
   //  const remainder = decimal % 2;
   //  result = remainder + result;
@@ -21,6 +22,17 @@ function toBinary(decimal) {
   //  decimal = Math.floor(decimal / 2);
   // }
   // console.log(binary)
+
   // return binary.join("")
   /// return decimal;
+
+  if (decimal === 0) return '0';
+
+  let result = '';
+  for (; decimal > 0; decimal = Math.floor(decimal / 2)) {
+    const remainder = decimal % 2;
+    result = remainder + result;
+  }
+
+  return result;
 }
