@@ -8,3 +8,19 @@
 // 3 ÷ 2 = 1 remainder 1
 // 1 ÷ 2 = 0 remainder 1
 // 12 in binary is 1100.
+
+function toBinary(decimal) {
+  // if (decimal === 0) return "0";
+  //   console.log(decimal)
+  // hold binary
+  // const binary = "";
+  // while (decimal > 0) {
+  //  const remainder = decimal % 2;
+  //  result = remainder + result;
+  // binary.unshift(decimal % 2);
+  //  decimal = Math.floor(decimal / 2);
+  // }
+  // console.log(binary)
+  // return binary.join("")
+  /// return decimal;
+}
